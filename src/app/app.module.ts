@@ -23,8 +23,8 @@ import { ProductDestacadasComponent } from './product-destacadas/product-destaca
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'products/:productId', component: ProductDetailsComponent }
-     // ,{path:'destacadas',component: ProductDestacadosComponent}
+      { path: 'products/:productId', component: ProductDetailsComponent },
+      {path:'destacadas',component: ProductDestacadasComponent}
     ])
   ],
   providers: [],
